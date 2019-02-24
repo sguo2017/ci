@@ -3,11 +3,6 @@ package com.fb.jenkin.demo;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-/**
- * @author viakiba
- * @description
- * @date Create in 20:35 2018/7/22
- */
 @Component
 public class EatCompentConfig {
 

@@ -3,11 +3,6 @@ package com.fb.jenkin.demo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- * @author viakiba
- * @description
- * @date Create in 20:34 2018/7/22
- */
 @Service
 public class PeopleEatServiceImpl implements PeopleEatService {
 

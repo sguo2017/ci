@@ -9,13 +9,6 @@ import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.Test;
 
-/**
- * @author viakiba
- *  classes需要注入的类
- * @description
- * @date Create in 20:38 2018/7/22
- */
-
 @SpringBootTest(classes = { PeopleEatServiceImpl.class , EatCompentConfig.class })
 //@DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_CLASS)
 public class EatServiceTest extends AbstractTestNGSpringContextTests {
