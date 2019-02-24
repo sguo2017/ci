@@ -1,13 +1,13 @@
-package com.tispr.jenkins;
+package com.fb.jenkin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JenkinsApplication {
+public class JenkinApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(JenkinsApplication.class, args);
+        SpringApplication.run(JenkinApplication.class, args);
     }
 
 }
